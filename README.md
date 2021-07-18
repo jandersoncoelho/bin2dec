@@ -23,8 +23,8 @@ restrições:
 ## Histórias de usuários
 
 - [X] O usuário pode inserir até 8 dígitos binários em um campo de entrada
-- [] O usuário deve ser notificado se algo diferente de 0 ou 1 foi inserido
-- [] O usuário visualiza os resultados em um único campo de saída contendo o equivalente decimal (base 10) do número binário que foi inserido
+- [X] O usuário deve ser notificado se algo diferente de 0 ou 1 foi inserido
+- [X] O usuário visualiza os resultados em um único campo de saída contendo o equivalente decimal (base 10) do número binário que foi inserido
 
 ## Recursos bônus
 
