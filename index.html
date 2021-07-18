@@ -5,26 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Conversor de Número Binário para Número Decimal</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>Conversor de Número Binário para Número Decimal</header>
-    <br />
+    <header>
+      <h1>Conversor de Número Binário para Número Decimal</h1>
+    </header>
+
     <section>
-      <form action="" method="get">
+      <form id="formulario">
+        <!-- <h2>Conversor de Número Binário para Número Decimal</h2> -->
         <input
           type="text"
           id="txtBinario"
           placeholder="Digite um número binário"
           maxlength="8"
           required
+          pattern="[0-1]+"
         />
-        <br />
-        <a class="button" href="#">Converter</a>
-        <span id="resultado">123</span>
-      </form>
+        <input type="submit" id="btnConverter" value="Converter" />
 
-      <br />
+        <p class="p" id="txtNumConvertido">123</p>
+      </form>
     </section>
     <footer></footer>
+    <script src="main.js"></script>
   </body>
 </html>

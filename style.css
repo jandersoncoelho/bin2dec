@@ -1,0 +1,45 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  padding-bottom: 1rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font: 400 1rem 'DM Sans', sans-serif;
+}
+
+input[type="text"] {
+  border: 1px solid #ddd;
+  padding: 4px 8px;
+  width: 34%;
+}
+
+input[type="text"]:focus {
+  border: 1px solid #000;
+}
+
+input[type="submit"] {
+  font-weight: bold;
+  padding: 4px 8px;
+  border:1px solid #000;
+  background: #3b5998;
+  color:#fff;
+}
+
+form {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.p {
+  padding-top: 30px;
+  align-items: center;
+}
