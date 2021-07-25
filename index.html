@@ -8,26 +8,31 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <h1>Conversor de Número Binário para Número Decimal</h1>
-    </header>
+    <div id="container">
+      <header>
+        <h1>Conversor de Número Binário para Número Decimal</h1>
+      </header>
 
-    <section>
-      <form id="formulario">
-        <!-- <h2>Conversor de Número Binário para Número Decimal</h2> -->
-        <input
-          type="text"
-          id="txtBinario"
-          placeholder="Digite um número binário"
-          maxlength="8"
-          required
-          pattern="[0-1]+"
-        />
-        <input type="submit" id="btnConverter" value="Converter" />
+      <section>
+        <form id="formulario">
+          <!-- <h2>Conversor de Número Binário para Número Decimal</h2> -->
+          <input
+            type="text"
+            id="txtBinario"
+            placeholder="Digite um número binário"
+            maxlength="8"
+            required
+            pattern="[0-1]+"
+          />
+          <input type="submit" id="btnConverter" value="Converter" />
 
-        <p class="p" id="txtNumConvertido">O número decimal vai aparecer aqui.</p>
-      </form>
-    </section>
+          
+          <p class="p" id="txtNumConvertido">
+            O número decimal vai aparecer aqui.
+          </p>
+        </form>
+      </section>
+    </div>
     <footer></footer>
     <script src="main.js"></script>
   </body>
